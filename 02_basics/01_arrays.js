@@ -1,0 +1,13 @@
+let id = [1,2,3,4,5];
+id.push(6);
+id.unshift(0);
+id.shift();
+console.log(id);
+console.log(id.includes(5));
+console.log(id.indexOf(5));
+const myn1 = id.slice(1,4);
+console.log(myn1);
+console.log(id);
+const myn2 = id.splice(0,1);
+console.log(myn2);
+console.log(id);
