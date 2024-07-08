@@ -35,3 +35,15 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//************************** && *********************************
+let one = {
+    id : 1,
+    name : "rishabh",
+}
+let two = one;
+two.name = "rishabh pandey";
+console.table([one.name, two.name]);
+
+
+// primitive datatypes (Stack-copies) & Non Primitive datatypes (Heap-Reference)
